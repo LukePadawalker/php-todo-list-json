@@ -25,8 +25,8 @@
             <p class="h1 pt-4 pb-4 white-text d-flex justify-content-center">Todo List</p>
             <ul class="list-group">
                 <li v-for="task in tasks" class="list-group-item d-flex justify-content-between align-items-center">
-                    {{task.text}}
-                    item<button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i></button>
+                    {{task.cd text}}<button type="button" class="btn btn-outline-danger"><i
+                            class="fa-solid fa-trash"></i></button>
                 </li>
 
             </ul>

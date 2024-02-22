@@ -20,9 +20,9 @@ const app = createApp({
         }
     },
     created() {
-        axios.get(endpoint).then(res => [
+        axios.get(endpoint).then(res => {
             this.tasks = res.data
-        ])
+        })
 
     }
 })
